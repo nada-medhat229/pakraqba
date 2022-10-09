@@ -5586,6 +5586,14 @@ button.link {
    .profile .dash-detail .part-detail{
       padding: 10px;
      }
+     header {
+      height: 40vh;
+      margin-bottom: 25px;
+
+     }  
+     header .header-content {
+    
+      height: 100%;}
 }
 
 @media (min-width: 768px) {
