@@ -5603,6 +5603,12 @@ button.link {
       header .header-content .nav-pills {
          width: calc(100% + -0.4rem);
      }
+     .photo-grid {
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+  .suggested-for-buy-rent .owl-carousel .owl-nav {
+   display: none;
+  }
 }
 
 @media (min-width: 768px) {
