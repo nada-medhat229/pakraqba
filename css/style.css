@@ -5587,10 +5587,17 @@ button.link {
       padding: 10px;
      }
      header {
-      height: 40vh;
-      margin-bottom: 25px;
+      height: 150vh;
+      margin-bottom: 0;
 
      }  
+     header .header-content h3 {
+      font-size: 14px;
+  }
+  header .header-content p {
+  
+   margin-bottom: 8px;
+}
      header .header-content {
     
       height: 100%;}
