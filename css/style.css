@@ -32,7 +32,6 @@ html {
 }
 
 body {
-   overflow-y: hidden;
    padding: 0 !important;
    direction: rtl;
 }
@@ -5601,6 +5600,9 @@ button.link {
      header .header-content {
     
       height: 100%;}
+      header .header-content .nav-pills {
+         width: calc(100% + -0.4rem);
+     }
 }
 
 @media (min-width: 768px) {
